@@ -1,0 +1,119 @@
+body{
+  font-family: arial, sans-serif;
+  font-size:90%
+}
+ul{
+list-style-type: none;
+display:inline;
+}
+
+li{
+  display:inline-block;
+  margin-right: 15px;
+  font-size: 90%;
+  color:gray;
+  padding: 0px;
+
+}
+
+.logos{
+  width:30px;
+  height: 30px;
+  padding:0px;
+}
+
+#logo{
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  bottom: 400px;
+  width: 300px;
+  top:20%
+}
+
+#rightnav{
+  position: absolute;
+  top:2%;
+  right: 10.5%;
+  margin-right:15px;
+  margin-top:8px;
+}
+#leftnav{
+  position: absolute;
+  top:2%;
+  margin-right:10px;
+  margin-top:8px;
+  margin-left:-20px;
+}
+
+#rightpics{
+  position: absolute;
+  top: 1%;
+  right: 1%
+}
+#top{
+  display: inline-block;
+}
+
+#blnav{
+  position:absolute;
+  bottom: 1%;
+  margin-left:-20px;
+}
+
+#brnav{
+  position:absolute;
+  bottom:1%;
+  right: 1%;
+  margin-right:10px
+}
+.underline{
+  text-decoration: none;  
+  color: gray;
+}
+.underline:hover{
+  text-decoration: underline
+}
+ #band{
+  width:100%;
+  background-color: blue;
+  bottom: 50%
+ }
+
+ input{
+   width: 550px;
+   height: 35px;
+   position: absolute;
+   bottom: 53%;
+   left: 50%;
+   margin-left: -275px;
+   border-radius: 3px;
+   border:0.5px solid lightgray;
+   box-shadow: 2px 2px 2px lightgray ;
+ }
+ 
+ #buttons{
+   position: absolute;
+   bottom: 45%;
+   left:40%
+
+ }
+ button{
+   display:inline;
+   font-size: 12px;
+   font-weight: bold;
+   color: gray;
+   border: none; 
+   background-color:rgb(240,240,240);
+   padding: 10px 15px;
+   margin-left: 10px
+ }
+span{
+  height: 100px;
+  width:100px;
+  background-color: gray;
+}
+  
+ 
+
+  
